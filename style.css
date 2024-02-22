@@ -1,4 +1,4 @@
-.count {
+.fisrt-page__count {
     font-size: 40px;
     color: white;
     background-color: rgba(1, 72, 42, 0.5);
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-image: url("back.jpg");
+    background-image: url("cover.jpg");
     background-size: 100% 100%;
     /* width: 100%;
     height: 100vh; */
@@ -36,36 +36,37 @@ nav img {
     height: 130px;
 }
 
-h1 {
-    font-size: 96px;
-    text-align: center;
-    color: white;
-    background-color: rgba(1, 72, 42, 0.5);
-}
 
-h2 {
+.cover__h2 {
     font-size: 24;
     color: white;
     text-align: center;
 }
 
-.arizonia-regular {
+.cover__h1 {
     font-family: "Arizonia", cursive;
     font-weight: 400;
     font-style: normal;
+    font-size: 96px;
+    text-align: center;
+    color: white;
+    background-color: rgba(1, 72, 42, 0.5);
   }
   
 
-.block {
-    background-color: rgba(8, 81, 1, 0.4);
-    width: 100%;
-    height: 100vh;
+.page {
+    background-image: url("background.jpg");
+    background-size: 100% 100%;
+    padding-bottom: 3%;
 }
 
-main p {
-    font-size: 20px;
+.fisrt-page__text {
+    font-size: 24px;
     color: #01482A;
     margin-bottom: 0%;
+    margin-left: 2%;
+    padding: 1% 0%;
+    text-align: center;
 }
 
 /* .m-text {
@@ -74,6 +75,8 @@ main p {
 
 hr {
     background-color: rgba(8, 81, 1, 0.4);
+    border-right-width: 0px;
+    border-left-width: 0px;
 }
 
 .cover {
@@ -84,18 +87,45 @@ hr {
 }
 
 
-.main-div {
+.fisrt-page__content {
     display: flex;
     flex-direction: column;
 }
 
-.rings {
+.fisrt-page__rings {
     display: flex;
-    align-items: end;
-    justify-content: end;
+    align-items: center;
+    justify-content: center;
 }
 
-.rings-img {
-    width: 35%;
-    height: 35%;
+.fisrt-page__rings-img {
+    width: 20%;
+    height: 20%;
+    margin: 1.5%;
+}
+
+.second-page__h1 {
+    margin: 0%;
+    font-size: 56px;
+    text-align: center;
+    color: #085701;
+    padding: 3%;
+}
+
+hr {
+    margin: 0%;
+    padding: 0%;
+}
+
+.second-page__content {
+    background-color: rgba(1, 72, 42, 0.5);
+    margin: 4%;
+    padding: 3%;
+}
+
+.second-page__content {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    line-height: 65px;
 }
