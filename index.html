@@ -1,57 +1,77 @@
 <!DOCTYPE html>
+<html lang="ru">
     <head>
-        <title>Свадьба</title>
-        <link rel="stylesheet" href="style.css"/>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <nav>
-                <img src="initials.svg"/>
-                <a href="#invitation">Приглашение</a>
-                <a href="#gifts">Подарки</a>
-                <a href="#plan">План торжества</a>
-            </nav>
-            <div class="cover">
-                <h2 class="cover__h2">cайт-приглашение</h2>
-                <h1 class="cover__h1">Alexey & Arina</h1>
-                <h2 class="cover__h2">20.04.2024</h2>
+        <div id="main">
+            <div id="main-container">
+                <div id="main-header">
+                    <div id="main-header-logo">
+                        <img src="images/initials.svg" alt="">
+                    </div>
+                    <div id="main-header-menu">
+                        <a href="#invitation-counter-text" class="menu-item">Приглашение</a>
+                        <a href="#gifts" class="menu-item">Подарки</a>
+                        <a href="#" class="menu-item">План торжества</a>
+                    </div>
+                </div>
+                <div id="main-content">
+                    <h2 class="subtitle1">сайт-приглашение</h2>
+                    <h1 id="main-title" class="arizonia-regular">Alexey & Arina</h1>
+                    <h2 class="subtitle2">20.04.2024</h2>
+                </div>
             </div>
-            
-        </header>
-        <main>
-            <div class="page">
-                <div class="fisrt-page__count">До свадьбы осталось:</div>
-                <div class="fisrt-page__content">
-                    <div>
-                        <p class="fisrt-page__text">Дорогие гости!</p>
-                        <p class="fisrt-page__text">Один день в этом году станет для нас особенно важным, <br/> и мы хотим провести его в кругу близких людей.</p>
-                        <p class="fisrt-page__text">И мы рады пригласить вас на праздник по случаю формирования нашей семьи :) </p>
-                        <br/>
-                        <div class="fisrt-page__rings">
-                            <img class="fisrt-page__rings-img" src="rings.svg"/>
-                        </div>
-                        <br/>
-                        <p class="fisrt-page__text">Ниже вы найдете подробную информацию о предстоящем торжестве.</p>
+        </div>
+        <div id="invitation">
+            <div id="invitation-container">
+                <div id="invitation-counter">
+                    <div id="invitation-counter-text">До свадьбы осталось:</div>
+                    <div id="invitation-counter-text">00 дней</div>
+                    <div id="invitation-counter-text">00 часов</div>
+                    <div id="invitation-counter-text">00 минут</div>
+                    <div id="invitation-counter-text">00 секунд</div>
+                </div>
+                <div id="invitation-content">
+                    <div id="invitation-content-text">Дорогие гости!</div>
+                    <div id="invitation-content-text">Один день в этом году станет для нас особенно важным, 
+                        и мы хотим провести его в кругу близких людей.
+                    </div>
+                    <div id="invitation-content-text">И мы рады пригласить вас на праздник по случаю 
+                        формирования нашей семьи :)
+                    </div>
+                    <div id="invitation-content-rings">
+                        <img src="images/rings.svg" alt="">
+                    </div>
+                    <div id="invitation-content-text">
+                        Ниже вы найдете подробную информацию о предстоящем торжестве.
                     </div>
                 </div>
             </div>
-            <hr align="center" width="100%" size="5" color="#B0D7AC"/>
-            <div class="page">
-                <h1 class="second-page__h1">Пожалуйста!</h1>
-                <div class="second-page__content">
-                    <p class="second-page__text">Если у вас вдруг возникла мысль подарить нам цветы или что-то аналогичное, пожалуйста, 
-                        откажитесь от этой идеи. В качестве подарка мы будем рады вашему даже самому небольшому денежному вкладу в 
-                        бюджет нашей новоиспеченной семьи. 
-                    </p>
-                    <img src="gift.svg"/>
+        </div>
+        <div>
+            <hr/>
+        </div>
+        <div id="gifts">
+            <div id="gifts-title">Пожалуйста!</div>
+            <div id="gifts-wish">
+                <div id="gifts-wish-text">
+                    Если у вас вдруг возникла мысль подарить нам цветы или что-то аналогичное, 
+                    пожалуйста, откажитесь от этой идеи. В качестве подарка мы будем рады вашему 
+                    даже самому небольшому денежному вкладу в бюджет нашей новоиспеченной семьи.
+                </div>
+                <div>
+                    <img src="images/gift.svg">
                 </div>
             </div>
-        </main>
-        <footer>
-
-        </footer>
+        </div>
     </body>
 </html>
