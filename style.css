@@ -17,13 +17,13 @@ hr {
 
 #main {
     background-image: url("images/cover.jpg");
-    background-size: 1520px 100%;
+    background-size: 1520px 110%;
     background-position: center;
     padding-bottom: 50px;
 }
 
 #main-container {
-    /* max-width: 1170px; */
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -89,7 +89,7 @@ hr {
 } */
 
 #invitation-container {
-    /* max-width: 1170px; */
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -108,26 +108,48 @@ hr {
 }
 
 #invitation-content {
-    background-color: rgba(1, 72, 42, 0.1);
+    /* background-color: rgba(1, 72, 42, 0.1); */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding-top: 60px;
     padding-bottom: 60px;
-    margin: 35px;
+    /* margin: 35px; */
 }
 
-#invitation-content-text {
+#invitation-content-up {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+#invitation-content-up-maintext {
+    font-size: 64px;
+    color: #01482A;
+    width: 570px;
+    margin-right: 250px;
+}
+
+#invitation-content-up-rings {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+#invitation-content-down {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#invitation-content-down-text {
     font-size: 24px;
     color: #01482A;
-    line-height: 40px;
+    line-height: 20px;
+    margin-bottom: 73px;
 }
 
-#invitation-content-rings {
-    margin-top: 85px;
-    margin-bottom: 50px;
-}
 
 #gifts {
     background-image: url("images/background.jpg");
@@ -140,13 +162,19 @@ hr {
     align-items: center;
 }
 
-#gifts-title {
+#gifts-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#gifts-container-title {
     color: #085701;
     font-size: 96px;
     margin: 40px;
+    text-align: center;
 }
 
-#gifts-wish {
+#gifts-container-wish {
     background-color: rgba(1, 72, 42, 0.5);
     color: white;
     display: flex;
@@ -156,9 +184,61 @@ hr {
     padding: 70px 45px;
 }
 
-#gifts-wish-text {
+#gifts-container-wish-text {
     text-align: center;
     font-size: 24px;
     line-height: 40px;
     margin-bottom: 50px;
+}
+
+#plan {
+    margin: 30px;
+    padding-top: 60px;
+    background-color: rgba(1, 72, 42, 0.1);
+}
+
+#plan-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lv {
+    height: 577px;
+}
+
+#plan-container-right {
+    /* width: 670px; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    justify-content: flex-start;
+}
+
+#plan-container-right-title {
+    font-size: 48px;
+    color: #01482A;
+}
+
+#plan-container-right-content {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-container-element {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
+    color: #01482A;
+    margin-bottom: 50px;
+}
+
+.plan-container-element-time {
+    margin-right: 80px;
+}
+
+.plan-container-subelement {
+    font-size: 14px;
 }
