@@ -4,12 +4,15 @@
         <meta charset="UTF-8">
         <title></title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="adaptive.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <div id="main">
@@ -19,7 +22,7 @@
                         <img src="images/initials.svg" alt="">
                     </div>
                     <div id="main-header-menu">
-                        <a href="#invitation-counter-text" class="menu-item">Приглашение</a>
+                        <a href="#invitation-counter-container" class="menu-item">Приглашение</a>
                         <a href="#gifts" class="menu-item">Подарки</a>
                         <a href="#plan" class="menu-item">План торжества</a>
                     </div>
@@ -36,11 +39,11 @@
         <div id="invitation">
             <div id="invitation-counter">
                 <div id="invitation-counter-container">
-                    <div id="invitation-counter-text">До свадьбы осталось:</div>
-                    <div id="invitation-counter-text">00 дней</div>
-                    <div id="invitation-counter-text">00 часов</div>
-                    <div id="invitation-counter-text">00 минут</div>
-                    <div id="invitation-counter-text">00 секунд</div>
+                    <div class="invitation-counter-text">До свадьбы осталось:</div>
+                    <div class="invitation-counter-text">00 дней</div>
+                    <div class="invitation-counter-text">00 часов</div>
+                    <div class="invitation-counter-text">00 минут</div>
+                    <div class="invitation-counter-text">00 секунд</div>
                 </div>
             </div>
             <div id="invitation-container">
@@ -99,32 +102,36 @@
                     <div id="plan-container-right-content">
                         <div class="plan-container-element">
                             <div class="plan-container-element-time">10:30</div>
-                            <div>
+                            <div class="plan-container-element-text">
                                 <div>Начало выкупа</div>
                                 <div class="plan-container-subelement">Чайковского, 28</div>
                             </div>
                         </div>
                         <div class="plan-container-element">
                             <div class="plan-container-element-time">12:00</div>
-                            <div>
+                            <div class="plan-container-element-text">
                                 <div>Свадебная церемония</div>
                                 <div class="plan-container-subelement">Дворец бракосочетания, ул. Маяковского, 21</div>
                             </div>
                         </div>
                         <div class="plan-container-element">
                             <div class="plan-container-element-time">14:00</div>
-                            <div>Фотосессия</div>
+                            <div class="plan-container-element-text">
+                                <div>Фотосессия</div>
+                            </div>
                         </div>
                         <div class="plan-container-element">
                             <div class="plan-container-element-time">15:00</div>
-                            <div>
+                            <div class="plan-container-element-text">
                                 <div>Начало банкета</div>
                                 <div class="plan-container-subelement">Столовая "Элеватор", ул. Элеваторная, 1</div>
                             </div>
                         </div>
                         <div class="plan-container-element">
                             <div class="plan-container-element-time">23:00</div>
-                            <div>Окончание вечера</div>
+                            <div class="plan-container-element-text">
+                                <div>Окончание вечера</div>
+                            </div>
                         </div>
                     </div>
                 </div>

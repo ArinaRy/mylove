@@ -44,7 +44,8 @@ hr {
 }
 
 #main-header-menu {
-    margin-left: 60px;
+    display: flex;
+    justify-content: center;
 }
 
 #main-header-menu a.menu-item {
@@ -89,9 +90,6 @@ hr {
     background-color: rgba(1, 72, 42, 0.5);
   }
 
-/* #invitation {
-    padding-bottom: 50px;
-} */
 
 #invitation-container {
     max-width: 1170px;
@@ -109,7 +107,7 @@ hr {
     margin: 0 auto;
 }
 
-#invitation-counter-text {
+.invitation-counter-text {
     color: white;
     font-size: 20px;
     margin-left: 60px;
@@ -118,14 +116,12 @@ hr {
 }
 
 #invitation-content {
-    /* background-color: rgba(1, 72, 42, 0.1); */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding-top: 60px;
     padding-bottom: 60px;
-    /* margin: 35px; */
 }
 
 #invitation-content-up {
@@ -166,15 +162,15 @@ hr {
     background-size: 1520px 100%;
     background-position: center;
     padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 #gifts-container {
     max-width: 1170px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #gifts-container-title {
@@ -212,6 +208,7 @@ hr {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .lv {
@@ -219,7 +216,6 @@ hr {
 }
 
 #plan-container-right {
-    /* width: 670px; */
     display: flex;
     flex-direction: column;
     margin-right: 50px;
@@ -233,6 +229,11 @@ hr {
 
 #plan-container-right-content {
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-container-element-text {
     display: flex;
     flex-direction: column;
 }

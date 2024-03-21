@@ -1,0 +1,118 @@
+@media only screen and (min-width: 1520px) {
+    #main, #gifts {
+        background-size: cover;
+    }   
+}
+
+@media only screen and (max-width: 1199px) {
+    #invitation-content-up-maintext {
+        margin-right: 0;
+    }
+
+    #invitation-content-down {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    #main-header-menu {
+        justify-content: space-between;
+    }
+
+    #invitation-content {
+        padding-bottom: 0px;
+    }
+    
+    #invitation-content-up {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    #invitation-content-up-maintext {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #invitation-content-up-rings {
+        margin-right: 0px;
+    }
+
+    #invitation-content-down {
+        text-align: center;
+    }
+
+    #gifts-container-wish {
+        width: 500px;
+    }
+
+    #plan-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .lv {
+        height: 200px;
+    }
+
+    #plan-container-right {
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+
+    #plan-container-right-title {
+        text-align: center;
+    }
+
+    #plan-container-right-content {
+        margin-top: 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    #main-header-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #main-header-logo {
+        margin-left: 0px;
+    }
+
+    .menu-item {
+        text-align: center;
+    }
+
+    #invitation-counter-container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .invitation-counter-text {
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #invitation-content-up-maintext {
+        width: 400px;
+    }
+
+    #gifts-container-wish {
+        width: 330px;
+    }
+
+    #gifts-container-title {
+        font-size: 64px;
+    }
+
+    .lv {
+        height: 150px;
+    }
+
+    #plan-container-right-content {
+        margin-left: 10px;
+    }
+}
