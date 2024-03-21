@@ -100,8 +100,12 @@
         width: 400px;
     }
 
+    #invitation-content-down {
+        margin: 0px 10px;
+    }
+
     #gifts-container-wish {
-        width: 330px;
+        width: 300px;
     }
 
     #gifts-container-title {
