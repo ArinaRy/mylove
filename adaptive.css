@@ -71,6 +71,39 @@
 }
 
 @media only screen and (max-width: 767px) {
+
+    .initials {
+        width: 100px;
+        height: auto;
+    }
+
+    #main {
+        background-image: url(images/bc-phone.png);
+        background-size: 422px auto;
+    }
+
+    #main-content {
+        margin-top: 20px;
+    }
+
+    .subtitle1 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #main-title {
+        margin: 30px 0px;
+        background-color: rgba(1, 72, 42, 0);
+    }
+
+    .subtitle2 {
+        margin: 40px 0px;
+    }
+
+    .subtitle1, .subtitle2 {
+        font-size: 14px;
+    }
+
     #main-header-container {
         flex-wrap: wrap;
         justify-content: center;
@@ -80,8 +113,9 @@
         margin-left: 0px;
     }
 
-    .menu-item {
+    #main-header-menu a.menu-item {
         text-align: center;
+        margin-right: 0px;
     }
 
     #invitation-counter-container {
@@ -108,6 +142,10 @@
         width: 280px;
     }
 
+    #gifts-container-wish-text {
+        font-size: 18px;
+    }
+
     #gifts-container-title {
         font-size: 64px;
     }
@@ -118,5 +156,45 @@
 
     #plan-container-right-content {
         margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+
+    #invitation-content-up-maintext {
+        width: 350px;
+    }
+
+    #invitation-content-down {
+        margin: 0px;
+    }
+
+    #gifts-container-title {
+        font-size: 56px;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+
+    #main-header-menu a.menu-item {
+        font-size: 14px;
+    }
+
+    #invitation-content-up-maintext {
+        width: 300px;
+        font-size: 56px;
+    }
+
+    #gifts-container-title {
+        font-size: 48px;
+        margin: 5px;
+    }
+
+    #gifts-container-wish {
+        width: 230px;
+    }
+
+    .plan-container-element {
+        font-size: 14px;
     }
 }
