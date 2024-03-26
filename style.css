@@ -231,14 +231,14 @@ hr {
 }
 
 #color {
-    padding: 30px;
+    margin: 30px;
+    background-color: rgba(1, 72, 42, 0.1);
 }
 
 #color-container {
     max-width: 1170px;
     margin: 0 auto;
     padding: 10px;
-    background-color: rgba(1, 72, 42, 0.1);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -254,6 +254,10 @@ hr {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 30px;
+}
+
+.color-container-element-pic {
+    margin-right: 10px;
 }
 
 #color-container-downtext {
