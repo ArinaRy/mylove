@@ -152,10 +152,43 @@ hr {
 #invitation-content-down-text {
     font-size: 24px;
     color: #01482A;
-    line-height: 20px;
     margin-bottom: 73px;
 }
 
+#form-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.glasses {
+    width: 140px;
+    margin: 40px;
+}
+
+.form-container-text {
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #01482A;
+}
+
+#form-container-btn {
+    background-color: #085701;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#form-container-btn-text {
+    color: white;
+    text-decoration: none;
+}
 
 #gifts {
     background-image: url("images/background.jpg");
@@ -195,6 +228,36 @@ hr {
     font-size: 24px;
     line-height: 40px;
     margin-bottom: 50px;
+}
+
+#color {
+    padding: 30px;
+}
+
+#color-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(1, 72, 42, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#01482A;
+}
+
+#color-container-uptext{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.color-container-element {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+#color-container-downtext {
+    margin-bottom: 40px;
 }
 
 #plan {
