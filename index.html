@@ -40,10 +40,10 @@
             <div id="invitation-counter">
                 <div id="invitation-counter-container">
                     <div class="invitation-counter-text">До свадьбы осталось:</div>
-                    <div class="invitation-counter-text">00 дней</div>
-                    <div class="invitation-counter-text">00 часов</div>
-                    <div class="invitation-counter-text">00 минут</div>
-                    <div class="invitation-counter-text">00 секунд</div>
+                    <div class="invitation-counter-text"><span id="invitation-counter-days">00</span> дней</div>
+                    <div class="invitation-counter-text"><span id="invitation-counter-hours">00</span> часов</div>
+                    <div class="invitation-counter-text"><span id="invitation-counter-minutes">00</span> минут</div>
+                    <div class="invitation-counter-text"><span id="invitation-counter-seconds">00</span> секунд</div>
                 </div>
             </div>
             <div id="invitation-container">
@@ -59,7 +59,7 @@
                             и мы хотим провести его в кругу близких людей.
                         </div>
                         <div id="invitation-content-down-text">И мы рады пригласить вас на праздник по случаю 
-                            формирования нашей семьи :)
+                            создания нашей семьи :)
                         </div>
                         <div id="invitation-content-down-text">
                             Ниже вы найдете подробную информацию о предстоящем торжестве.
@@ -78,7 +78,7 @@
                 </div>
                 <div class="form-container-text">
                     Вы можете помочь нам в организации банкета, если ответите на несколько вопросов в форме и тем самым
-                    выскажете свои пожелания по еде и напиткам.
+                    выскажете свои пожелания по напиткам.
                 </div>
                 <div class="form-container-text">
                     Нажмите на кнопку, чтобы перейти к Яндекс-форме.
@@ -111,7 +111,7 @@
         </div>
         <div id="color">
             <div id="color-container">
-                <div id="color-container-uptext">Мы просим Вас воздержаться от следуюших цветов в нарядах на нашей свадьбе:</div>
+                <div id="color-container-uptext">Мы просим Вас <b>по возможности</b> воздержаться от следуюших цветов в нарядах на нашей свадьбе:</div>
                 <div class="color-container-element">
                     <div class="color-container-element-pic">
                         <img src="images/red.svg" alt="">
@@ -187,4 +187,5 @@
             </div>
         </div>
     </body>
+    <script src="counter.js"></script>
 </html>
