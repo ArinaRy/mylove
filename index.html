@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Смирновы <3</title>
+        <script src="counter.js"></script>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="adaptive.css">
         <meta name="viewport" content="width=device-width, initial-scale=1"
@@ -12,7 +13,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-
     </head>
     <body>
         <div id="main">
@@ -40,10 +40,10 @@
             <div id="invitation-counter">
                 <div id="invitation-counter-container">
                     <div class="invitation-counter-text">До свадьбы осталось:</div>
-                    <div class="invitation-counter-text"><span id="invitation-counter-days">00</span> дней</div>
-                    <div class="invitation-counter-text"><span id="invitation-counter-hours">00</span> часов</div>
-                    <div class="invitation-counter-text"><span id="invitation-counter-minutes">00</span> минут</div>
-                    <div class="invitation-counter-text"><span id="invitation-counter-seconds">00</span> секунд</div>
+                    <div class="invitation-counter-text timer-items timer-days">00</div>
+                    <div class="invitation-counter-text timer-items timer-hours">00</div>
+                    <div class="invitation-counter-text timer-items timer-minutes">00</div>
+                    <div class="invitation-counter-text timer-items timer-seconds">00</div>
                 </div>
             </div>
             <div id="invitation-container">
@@ -191,5 +191,4 @@
             </div>
         </div>
     </body>
-    <script src="counter.js"></script>
 </html>

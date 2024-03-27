@@ -109,11 +109,18 @@ hr {
 
 .invitation-counter-text {
     color: white;
-    font-size: 20px;
-    margin-left: 60px;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-right: 10px;
     margin-top: 45px;
     margin-bottom: 45px;
 }
+
+.timer-items::after {
+    content: attr(data-title);
+    margin-left: 20px;
+}
+
 
 #invitation-content {
     display: flex;
