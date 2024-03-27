@@ -51,6 +51,20 @@
         justify-content: center;
     }
 
+    #color-container-uptext, #color-container-downtext {
+        text-align: center;
+    }
+
+    #color-container-colorsblock {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .color-container-colorsblock-element {
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+
     .lv {
         height: 200px;
     }
@@ -84,23 +98,27 @@
 
     #main-content {
         margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .subtitle1 {
-        margin: 60px 0px;
+        margin: 35px 0px;
     }
 
     #main-title {
         margin: 90px 0px;
-        background-color: rgba(1, 72, 42, 0);
+        /* width: 300px; */
+        background-color: rgba(1, 72, 42, 0.3);
     }
 
     .subtitle2 {
-        margin: 60px 0px;
+        margin: 35px 0px;
     }
 
     .subtitle1, .subtitle2 {
-        font-size: 14px;
+        font-size: 24px;
     }
 
     #main-header-container {
@@ -142,7 +160,7 @@
     }
 
     #gifts-container-wish-text {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     #gifts-container-title {
