@@ -1,22 +1,11 @@
-// let days = document.getElementById("invitation-counter-days").textContent
-// console.log(days)
-
-// const wedding = new Date(2024, 4, 20);
-
-// function countdown() {
-//     const diff = dea
-// }
-
 document.addEventListener('DOMContentLoaded', function() {
-    // конечная дата, например 1 июля 2021
     const deadline = new Date("2024-04-20 12:00:00");
-    // id таймера
     let timerId = null;
-    // склонение числительных
+
     function declensionNum(num, words) {
       return words[(num % 100 > 4 && num % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][(num % 10 < 5) ? num % 10 : 5]];
     }
-    // вычисляем разницу дат и устанавливаем оставшееся времени в качестве содержимого элементов
+
     function countdownTimer() {
       const diff = deadline - new Date();
       if (diff <= 0) {
@@ -35,13 +24,13 @@ document.addEventListener('DOMContentLoaded', function() {
       $minutes.dataset.title = declensionNum(minutes, ['минута', 'минуты', 'минут']);
       $seconds.dataset.title = declensionNum(seconds, ['секунда', 'секунды', 'секунд']);
     }
-    // получаем элементы, содержащие компоненты даты
+
     const $days = document.querySelector('.timer-days');
     const $hours = document.querySelector('.timer-hours');
     const $minutes = document.querySelector('.timer-minutes');
     const $seconds = document.querySelector('.timer-seconds');
-    // вызываем функцию countdownTimer
+
     countdownTimer();
-    // вызываем функцию countdownTimer каждую секунду
+
     timerId = setInterval(countdownTimer, 1000);
   });
